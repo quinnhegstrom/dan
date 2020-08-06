@@ -4,6 +4,13 @@
     padding: 0 4px;
     align-content: center;
     background:rgb(219, 219, 219);
+    animation: fadeIn;
+    animation-duration: 4s;
+  }
+  @media screen and (max-width: 600px){
+      .row{
+          animation: none;
+      }
   }
   
   /* Create four equal columns that sits next to each other */
