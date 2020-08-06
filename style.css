@@ -38,7 +38,7 @@
   }
   h1{
       text-align: center;
-      animation: animate__bounceInDown;
+      animation: bounceInDown;
   }
   h2{
       text-align: center;
@@ -48,6 +48,12 @@
     transition: 2s;
   }
 
+  @media screen and (max-width: 600px){
+    img:hover{
+        transform: none;
+        transition: hidden;     
+        }
+  }
   *{padding: 0; margin: 0; box-sizing: border-box;}
 body{height: 900px;}
 header {
@@ -60,6 +66,12 @@ header {
 	position: relative;
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
+}
+@media screen and (max-width: 600px){
+    header{
+        background: url('https://i.imgur.com/opkriub.jpg');
+        background-size:contain;
+}
 }
 header .overlay{
 	width: 100%;
