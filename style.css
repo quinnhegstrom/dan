@@ -4,8 +4,6 @@
     padding: 0 4px;
     align-content: center;
     background:rgb(219, 219, 219);
-    animation: fadeIn;
-    animation-duration: 4s;
   }
   
   /* Create four equal columns that sits next to each other */
