@@ -353,3 +353,8 @@ textarea:hover {
 #submit:hover {
   color: #000000;
 }
+
+li{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+}
